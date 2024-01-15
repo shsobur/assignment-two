@@ -1,9 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
 }
 
-h1 {
-  color: red;
+/* Section-one styleing ST */
+
+.section-one {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-sectoin {
+  height: 100%;
+  width: 90%;
+}
+
+/* Section-one_Nave-bar part styleing ST */
+
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nave-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.nave-logo img {
+  height: 60px;
+}
+.nave-logo h2 {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+  padding-left: 16px;
+}
+.nave-logo span {
+  color: #FF5400;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 3.4vw;
+  padding-right: 30px;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 1.1rem;
+}
+#bar-icon {
+  display: none;
+}
+nav a:hover {
+  color: #FF5400;
+  transition: 0.1s;
+}
+
+/*  Section-one_Nave-bar styleing end */
+
+.hero-container {
+  height: calc(100% - 80px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-bg-image {
+  height: 90%;
+  width: 100%;
+  background-image: url("Images/hero-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.bg-liner {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.518), rgba(0, 0, 0, 0.164));
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-iner-contain {
+  height: 100%;
+  width: 90%;
+  padding-top: 50px;
+}
+.hero-iner-contain h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.hero-iner-contain p {
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 26px;
+  padding:10px 240px;
+}
+
+.hero-input {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-input {
+  height: 40%;
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.30);
+}
+
+.info-input input {
+  width: 175px;
+  height: 50px;
+  color: rgba(19, 19, 24, 0.50);
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+.info-input select {
+  width: 175px;
+  height: 50px;
+  font-size: 1rem;
+  padding-left: 10px;
+  border-radius: 8px;
+  outline: none;
+  color: rgba(19, 19, 24, 0.50);
+}
+.info-input button {
+  width: 175px;
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #FF5400;
+}
+.info-input button:hover {
+  background-color: #ec4f00;
+}
+.info-input button:active{
+  background-color: #da4900;
+}
+.info-input button i {
+  padding-right: 10px;
+  font-size: 1.3rem;
+  display: inline;
+}
+
+
+/* Section-one styleing END */
+
+
+
+@media screen and (max-width: 600px) {
+  
+  /* Responsive part of "Hero_Section" ST  */
+
+  .nave-logo {
+    padding-left: 10px;
+  }
+  .nave-logo img {
+    height: 40px;
+  }
+  .nave-logo h2 {
+    font-size: 1.5rem;
+  }
+  nav > ul {
+    padding-right: 10px;
+  }
+  nav > ul > li {
+    display: none;
+  }
+  #bar-icon {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .hero-iner-contain {
+    padding-top: 10px;
+  }
+  .hero-iner-contain h1 {
+    font-size: 2.1rem;
+  }
+  .hero-iner-contain p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .info-input {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero-iner-contain p {
+    padding-bottom: 50px;
+  }
+
+  .info-input input {
+    width: 250px;
+  }
+  .info-input select {
+    width: 250px;
+  }
+
+  /* Responsive part of "Hero_Section" END  */
+
 }

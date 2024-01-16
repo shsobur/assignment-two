@@ -268,7 +268,7 @@ nav a:hover {
 /* Section-Two (Popular_Tours) styleing END */
 
 
-/* Section-four (Why Choose Us) styleing ST*/
+/* Section-four (Why Choose Us) styleing ST */
 
 .section-four {
   height: 100%;
@@ -356,6 +356,83 @@ nav a:hover {
   font-size: 1rem;
   line-height: 26px;
 }
+
+
+/* Section-four (Why Choose Us) styleing END */
+
+
+/* Fooer Section styleing ST */
+
+.footer-section {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container {
+  height: 80%;
+  width: 60%;
+}
+
+.contain {
+  text-align: center;
+}
+
+.contain > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contain img {
+  height: 40px;
+}
+.contain h2 {
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+  padding-left: 10px;
+}
+.contain span {
+  color: #FF5400;
+}
+.contain p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  line-height: 25px;
+  padding: 30px 0;
+}
+.contain i {
+  font-size: 2vw;
+  padding: 0 10px 30px 0;
+  cursor: pointer;
+}
+
+.reserved {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reserved-text {
+  color: #131318;
+  font-family: Inter;
+  font-size: 1rem;
+}
+
+/* Fooer Section styleing END */
+
+/* I Try My Best */
+
+
+
+
+
+
 
 
 
@@ -485,4 +562,56 @@ nav a:hover {
     height: 50%;
     width: 100%;
   }
+
+  /* Responsive part of "Why Choose Us" END  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive part of "Footer" ST  */
+
+  .footer-section {
+    height: 40vh;
+  }
+
+  .footer-container {
+    width: 90%;
+  }
+
+  .contain h2 {
+    color: #131318;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .contain p {
+    padding: 10px 0;
+  }
+  .contain i {
+    font-size: 6vw;
+  }
+
+  .reserved  {
+    height: 20%;
+  }
+
+  /* Responsive part of "Footer" END  */
+
 }

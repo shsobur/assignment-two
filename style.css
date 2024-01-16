@@ -128,7 +128,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
-
+  
 .info-input {
   height: 40%;
   width: 80%;
@@ -181,7 +181,6 @@ nav a:hover {
   font-size: 1.3rem;
   display: inline;
 }
-
 
 /* Section-one (Hero) styleing END */
 
@@ -357,8 +356,124 @@ nav a:hover {
   line-height: 26px;
 }
 
-
 /* Section-four (Why Choose Us) styleing END */
+
+
+/* Section-five (Newsletter) styleing ST */
+
+.section-five {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter {
+  height: 70%;
+  width: 80%;
+  display: flex;
+}
+
+.left-news {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-area {
+  height: 90%;
+  width: 80%;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+}
+
+.newsletter-area h4 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 20px 0 20px 20px;
+}
+.newsletter-area p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  line-height: 26px;
+  padding: 0 0 20px 20px;
+}
+.newsletter-area input {
+  width: 330px;
+  height: 50px;
+  font-size: 1rem;
+  display: block;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 0 10px;
+  margin: 0 0 20px 20px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.newsletter-area button {
+  margin-left: 20px;
+  width: 330px;
+  height: 50px;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+  background-color: #FF5400;
+  border: none;
+  border-radius: 8px;
+}
+
+.newsletter-area button:hover {
+  background-color: #ec4f00;
+}
+.newsletter-area button:active{
+  background-color: #da4900;
+}
+
+.right-news {
+  height: 100%;
+  width: 50%;
+}
+
+.right-image {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-image img {
+  height: 90%;
+  width: 100%;
+}
+
+.discount {
+  background-color: #FF5400;
+  border-radius: 8px;
+  width: 320px;
+  padding: 30px;
+  position: relative;
+  bottom: 218px;
+  left: 178px;
+  transform: rotate(-30deg);
+}
+.discount p {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.discount h2 {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* Section-five (Newsletter) styleing END */
 
 
 /* Fooer Section styleing ST */
@@ -505,6 +620,7 @@ nav a:hover {
 
   /* Responsive part of "Hero_Section" END  */
 
+
   /* Responsive part of "Popular-Tours_section" ST  */
 
   .tour-section {
@@ -528,6 +644,7 @@ nav a:hover {
   }
 
   /* Responsive part of "Popular-Tours_section" END  */
+
 
   /* Responsive part of "Why Choose Us" ST  */
 
@@ -566,22 +683,64 @@ nav a:hover {
   /* Responsive part of "Why Choose Us" END  */
 
 
+  /* Responsive part of "Newsletter" ST  */
 
+  .section-five {
+    margin-top: 50px;
+  }
 
+  .newsletter {
+    height: 100%;
+    width: 90%;
+    flex-direction: column;
+  }
 
+  .left-news {
+    width: 100%;
+    height: 100%;
+  }
 
+  .newsletter-area {
+    width: 90%;
+    height: 100%;
+  }
 
+  .newsletter-area input {
+    width: 90%;
+    height: 50px;
+  }
+  .newsletter-area button {
+    width: 90%;
+    height: 50px;
+  }
 
+  .right-news {
+    height: 100%;
+    width: 100%;
+  }
 
+  .right-image {
+    width: 100%;
+    height: 100%;
+  }
+  .right-image img {
+    width: 90%;
+    height: 80%;
+  }
 
+  .discount {
+    width: 215px;
+    left: 105px;
+    bottom: 200px;
+  }
+  .discount p {
+    font-size: 1rem;
+  }
+  .discount h2 {
+    font-size: 1.2rem;
+  }
 
-
-
-
-
-
-
-
+  /* Responsive part of "Newsletter" END  */
 
 
   /* Responsive part of "Footer" ST  */

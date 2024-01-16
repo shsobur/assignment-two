@@ -359,6 +359,134 @@ nav a:hover {
 /* Section-four (Why Choose Us) styleing END */
 
 
+/* Reword-section (Deals & DiscountsDeals & Discounts) styleing ST */
+
+.deals-titel {
+  text-align: center;
+  padding-top: 50px;
+}
+.deals-titel h2 {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.deals-titel p {
+  color: #131318b3;
+  font-size: 1rem;
+  line-height: 26px;
+  padding: 10px 350px;
+}
+
+.satorini {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.satorini-container {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-image: url("Images/Satorini-one.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tour-details {
+  height: 70%;
+  width: 50%;
+  margin-right: 50px;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+}
+
+.tour-details > ul {
+  display: flex;
+  gap: 24px;
+  padding: 20px 0 0 50px;
+}
+.tour-details li {
+  list-style: none;
+  color: #5A5A5D;
+  font-size: 1rem;
+}
+.tour-details i {
+  padding-right: 10px;
+  font-size: 1.3rem;
+}
+
+.tour-details h3 {
+  color: #131318;
+  font-size: 1.4rem;
+  font-weight: 800;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.tour-details p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  line-height: 26px;
+  padding: 20px 50px;
+}
+.tour-details h4 {
+  color: #FF5400;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.tour-details button {
+  padding: 15px 25px;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  background-color: #FF5400;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+
+.tour-details button:hover {
+  background-color: #ec4f00;
+}
+.tour-details button:active{
+  background-color: #da4900;
+}
+
+/* Reword-section (Deals & DiscountsDeals & Discounts) styleing END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Section-five (Newsletter) styleing ST */
 
 .section-five {
@@ -681,6 +809,83 @@ nav a:hover {
   }
 
   /* Responsive part of "Why Choose Us" END  */
+
+
+  /* Responsive part of "Reword-section" ST  */
+
+  .deals-titel {
+    padding-top: 20px;
+  }
+  .deals-titel h2 {
+    font-size: 1.4rem;
+  }
+
+  .deals-titel p {
+    line-height: 20px;
+    padding: 10px 10px;
+  }
+
+  .satorini {
+    height: 100vh;
+  }
+
+  .satorini-container  {
+    height: 70%;
+    width: 90%;
+    justify-content: center;
+    align-items: end;
+    border-radius: 16px;
+    padding-bottom: 20px;
+  }
+
+  .tour-details {
+    width: 90%;
+    margin: 0 0;
+  }
+
+  .tour-details > ul {
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+  .tour-details li {
+    font-size: 1rem;
+  }
+  .tour-details i {
+    font-size: 1rem;
+  }
+  .tour-details h3 {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-top: 0;
+  }
+  .tour-details p {
+    padding: 10px 0 10px 20px;
+  }
+  .tour-details h4 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  .tour-details button {
+    margin-left: 20px;
+  }
+
+  /* Responsive part of "Reword-section" END  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive part of "Reword-section" END  */
 
 
   /* Responsive part of "Newsletter" ST  */

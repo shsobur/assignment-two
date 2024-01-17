@@ -267,11 +267,98 @@ nav a:hover {
 /* Section-Two (Popular_Tours) styleing END */
 
 
+/* Section-three (Choose Your Destination) styleing ST */
+
+.destination {
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.destination h2 {
+  color: #131318;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+.destination p {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 26px;
+  padding: 10px 300px;
+}
+
+.destination-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain {
+  height: 90%;
+  width: 80%;
+  display: grid;
+  gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 
+  "item-1 item-1 item-2 item-2"
+  "item-3 item-4 item-4 item-5"
+  "item-6 item-6 item-7 item-7"
+  ;
+}
+
+.child {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.item img {
+  width: 100%;
+}
+
+#box-1 {
+  grid-area: item-1;
+}
+#box-2 {
+  grid-area: item-2;  
+}
+#box-3 {
+  grid-area: item-3;  
+}
+#box-4 {
+  grid-area: item-4;  
+}
+#box-5 {
+  grid-area: item-5;  
+}
+#box-6 {
+  grid-area: item-6;
+}
+#box-7 {
+  grid-area: item-7;
+}
+
+/* Section-three (Choose Your Destination) styleing END */
+
+
 /* Section-four (Why Choose Us) styleing ST */
 
 .section-four {
   height: 100%;
   width: 100%;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -607,35 +694,35 @@ nav a:hover {
   width: 60%;
 }
 
-.contain {
+.footer-contain {
   text-align: center;
 }
 
-.contain > ul > li {
+.footer-contain > ul > li {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.contain img {
+.footer-contain img {
   height: 40px;
 }
-.contain h2 {
+.footer-contain h2 {
   color: #131318;
   font-size: 2rem;
   font-weight: 800;
   padding-left: 10px;
 }
-.contain span {
+.footer-contain span {
   color: #FF5400;
 }
-.contain p {
+.footer-contain p {
   color: #5A5A5D;
   font-size: 1rem;
   line-height: 25px;
   padding: 30px 0;
 }
-.contain i {
+.footer-contain i {
   font-size: 2vw;
   padding: 0 10px 30px 0;
   cursor: pointer;
@@ -761,21 +848,79 @@ nav a:hover {
   /* Responsive part of "Popular-Tours_section" END  */
 
 
+  /* Responsive part of "Choose Your Destination" ST  */
+
+  .destination {
+    margin-top: 200px;
+    margin-bottom: 30px;
+  }
+  .destination h2 {
+    font-size: 1.5rem;
+  }
+  .destination p {
+    font-size: 1rem;
+    padding: 20px 10px;
+  }
+  
+  .contain {
+    width: 90%;
+    grid-template-areas: 
+    "item-1"
+    "item-2"
+    "item-3"
+    "item-4"
+    "item-5"
+    "item-6"
+    "item-7";
+  }
+    #box-1 {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    #box-2 {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    #box-3 {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    #box-4 {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    #box-5 {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    #box-6 {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    #box-7 {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
+
+
+  /* Responsive part of "Choose Your Destination" END  */
+
+
   /* Responsive part of "Why Choose Us" ST  */
 
 
   .section-four {
-    margin-top: 200px;
+    margin-top: 50px;
   }
 
   .us-section h2 {
     color: #131318;
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 800;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 800;
   }
   .description {
-    padding: 10px 10px;
+    padding: 20px 10px;
   }
 
   .details {
@@ -801,15 +946,15 @@ nav a:hover {
   /* Responsive part of "Reword-section" ST  */
 
   .deals-titel {
-    padding-top: 20px;
+    margin-top: 50px;
   }
   .deals-titel h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .deals-titel p {
     line-height: 20px;
-    padding: 10px 10px;
+    padding: 20px 10px;
   }
 
   .satorini {
@@ -856,21 +1001,13 @@ nav a:hover {
     margin-left: 20px;
   }
 
-  /* Responsive part of "Reword-section" END  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  #diffrent-image {
+    justify-content: center;
+    align-items: end;
+  }
+  #diffrent-style {
+    margin: 0;
+  }
 
   /* Responsive part of "Reword-section" END  */
 
@@ -945,17 +1082,17 @@ nav a:hover {
     width: 90%;
   }
 
-  .contain h2 {
+  .footer-contain h2 {
     color: #131318;
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
   }
-  .contain p {
+  .footer-contain p {
     padding: 10px 0;
   }
-  .contain i {
+  .footer-contain i {
     font-size: 6vw;
   }
 
